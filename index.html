@@ -1,47 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
- <title>Portfolio</title>
-</head>
-<body>
-    <div id="mySidenav" class="sidenav">
-        <a href="#" id="home">Home</a>
-        <a href="#" id="about">About</a>
-        <a href="#" id="project">Projects</a>
-        <a href="#" id="skills">Skills</a>
-        <a href="#" id="contact">Contact</a>
-    </div>
+<html lang="en" dir="ltr">
 
-      <div class="container-fluids">
-        <h1>JAMES MUITO MUSYOKA <br>Full Stack Web Developer</h1>
+<head>
+  <link rel="shortcut icon" href="images/image.jpg">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Portfolio Landing Page</title>
+</head>
+
+<body style="background-color: rgb(8, 8, 8); color: antiquewhite; font-family: 'Josefin Sans', sans-serif;">
+
+  <div style="width: 100%; height: 700px; background-image: url('http://leftbrainbuddha.com/wp-content/uploads/2017/06/DARK-COMPUTER-1600x800.png'); background-size: cover; background-repeat: no-repeat; background-attachment:fixed;"
+    class="container-fluid">
+    <div id="darker" class="row">
+      <div class="col-md-">
+        <nav style="padding-bottom:0px; position: fixed; z-index: 1; top: 0; width: 100%; background-color:rgba(27, 25, 25, 0);  float:right;">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#section">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#kunipata">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="About">
-        <h2>About</h2>
-        <br>
-        <p>Hello! I am a Full Stack Web Developer based in Nairobi. Passionate about Websites and interactive experiences</p>
-        <p>I create  efficient UI/UX applications using different skills i have learned so far.</p>
+      <div class="col-md-10">
+        <h1 style="text-align: center; color:whitesmoke; padding-top:250px; padding-left:150px;">James Muito Musyoka</h1>
+        <h2 style="text-align: center; color:whitesmoke; padding-left:150px;">Fullstack Web Developer </h2>
       </div>
-      <div class="Projects">
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div style="background-image:url('images/back-about.jpeg'); background-attachment:fixed; width:100%; height:700px; background-size: cover; background-repeat: no-repeat;"
+      id="about-me">
+      <div class="row" id=about>
+        <div class="col-md-6">
+          <img src="images/IMG-20190613-WA0009.jpg" class="center">
+    
+        </div>
+    
+        <div id="ous" class="col-md-6">
+          <h4>About Me!</h4>
+          <p>A fullstack developer who loves Technology and passionate about change.</p>
+        </div>
+    
+      </div>
+    
+    
+    </div>
+    <hr>
+    <!--end of about-->
+    
+    <!--skills-->
+    <div id=section>
+      <h4>SKILLS</h4>
+      <div id="cust">
         <div class="row">
-          <h2>Projects</h2>
           <div class="col-md-4">
-            <picture><h3>Awwards<br><img src="images/Screenshot from 2019-03-19 16-43-18.png" alt="image"></h3></picture>
+            <img src="./images/html.png" alt="" width=140px height=140px>
+            <p>Html5</p>
           </div>
+    
           <div class="col-md-4">
-            <picture><h3>Instagram<br><img src="images/instagram.png" alt="image"></h3></picture>
+            <img src="./images/bootstrap-stack.png" alt="" width=140px height=140px>
+            <p>bootstrap</p>
           </div>
-          <picture><h3>Instagram<br><img src="images/instagram.png" alt="image"></h3></picture>
-          <picture><h3>Quotes<br><img src="images/quotes.png" alt="image"></h3></picture>
-          <picture><h3>News Highlights<br><img src="images/Screenshot from 2019-06-12 18-10-39.png" alt="image"></h3></picture>
+    
+          <div class="col-md-4">
+            <img src="./images/angular.png" alt="" width=140px height=140px>
+            <p>angular6</p>
+          </div>
+    
+        </div>
+        <div class="row">
+    
+          <div class="col-md-4">
+            <img src="images/flask-oauth.png" alt="" width=140px height=140px>
+            <p>Flask MicroFramework</p>
+          </div>
+    
+          <div class="col-md-4">
+            <img src="images/django.png" alt="" width=140px height=140px>
+            <p>Django Framework</p>
+          </div>
+    
+          <div class="col-md-4">
+            <img src="./images/post2.jpg" alt="" width=140px height=140px>
+            <p>postgresql</p>
+          </div>
+    
         </div>
       </div>
-      <div class="skills">
-          <h2>Skills</h2>
+    </div>
+    <hr>
+    <!--end of skills-->
+    
+    
+    
+    
+    
+    <div id="project">
+      <div class="mine">
+        <h4>PROJECTS</h4>
+    
       </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+            <div style="background-color:black;" class="card-body">
+              <h4>Awwards</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/Screenshot from 2019-03-19 16-43-18.png" alt="Card image">
+              <p class="card-text">Quotes is an application that you can use to write your favorite quotes.</p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap4, Javascript and jQuery</p>
+              <p><a href="https://github.com/JamesMusyoka/AWWARDS">View code</a></p>
+              <a href="https://awwwarders.herokuapp.com/" class="btn btn-outline-primary btn-sm">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+    
+            <div style="background-color:black;" class="card-body">
+              <h4>Quotes</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/quotes.png" alt="Card image">
+              <p class="card-text">This is a game of two where you roll a dice in turns. </p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap4, Javascript and jQuery</p>
+              <p><a href="https://github.com/JamesMusyoka/IP1-QUOTES">View code</a></p>
+              <a href="https://jamesmusyoka.github.io/IP1-QUOTES/" class="btn btn-outline-primary btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4"> -->
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+    
+            <div style="background-color:black;" class="card-body">
+              <h4>Instagram</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/pitch.png" alt="Card image">
+              <p class="card-text">One minute pitch application where you can write and comment on a pitch.</p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap4, python3.6-flask microframework</p>
+              <p><a href="https://github.com/Yvonne-Ouma/My-Pitch">View code</a></p>
+              <a href="https://pitchyvonne.herokuapp.com/" class="btn btn-outline-primary btn-sm">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+            <div style="background-color:black;" class="card-body">
+              <h4>News Highlights</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/news.png" alt="Card image">
+              <h4 class="card-title"></h4>
+              <p class="card-text">This is App that helps users loop through the latest news.</p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap3, python3.6-flask microframework, NewsAPI</p>
+              <p><a href="https://github.com/Yvonne-Ouma/News-Highlight">View code</a></p>
+              <a href="https://mystic-yvonne-23.herokuapp.com/" class="btn btn-outline-primary btn-sm">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+    
+            <div style="background-color:black;" class="card-body">
+              <h4>InstaGram</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/insta.png" alt="Card image">
+              <h4 class="card-title"></h4>
+              <p class="card-text">This is a clone of the popular InstaGram website.</p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap3, python3.6-Django framework</p>
+              <p><a href="https://github.com/Yvonne-Ouma/Instagram-app">View code</a></p>
+              <a href="https://instagramyvonne.herokuapp.com/" class="btn btn-outline-primary btn-sm">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4"> -->
+        <div class="col-md-4">
+          <div class="card" style="width:400px; height:550px;">
+    
+            <div style="background-color:black;" class="card-body">
+              <h4>Awwwards</h4>
+              <img style="width:100%; height:250px;" class="card-img-top" src="images/awwwards.png" alt="Card image">
+              <h4 class="card-title"></h4>
+              <p class="card-text">This is a project that allows users to post their projects and get rated by peers.</p>
+              <p><strong>Technologies Used:</strong>Html, css, Bootstrap3, python3.6- Django framework</p>
+              <p><a href="https://github.com/Yvonne-Ouma/Awwwards">View code</a></p>
+              <a href="https://yvonneawards.herokuapp.com/" class="btn btn-outline-primary btn-sm">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <hr>
+    
+    <div id="kunipata">
+      <div class="who">
+        <section id="contact" style="background-color:rgba(7, 7, 7, 0);">
+    
+          <h4 class="" style="text-align:center;">CONTACT</h4>
+    
+          <div class="contact-wrapper" style="padding-right:200px;">
+    
+    
+            <div class="direct-contact-container">
+    
+              <ul class="contact-list">
+                <li class="list-item" style="padding-right:85px;"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">NAIROBI |
+                      KENYA</span></i></li>
+    
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="" title="Send me an email">jamesmu475@gmail.com</a></span></i></li>
+    
+              </ul>
+    
+              <hr>
+              <ul class="social-media-list">
+                <a href="https://github.com/JamesMusyoka" target="_blank" class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/MuitoMusyoka" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/james-muito-a20823165/" target="_blank" class="contact-icon"></a>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </ul>
+              <hr>
+    
+              <div class="copyright">&copy; 2018 ALL OF THE RIGHTS RESERVED</div>
+    
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
