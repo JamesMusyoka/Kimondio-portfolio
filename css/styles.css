@@ -51,10 +51,11 @@ img.center {
     text-decoration: none;
     display: block;
     color: white;
+    margin-bottom: 8px;
   }
   
   nav>ul>li>a:hover {
-    background-color: rgba(146, 147, 214, 0.678);
+    background-color: blue;
     color: rgba(183, 193, 216, 0.7);
   }
   
