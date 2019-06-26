@@ -5,6 +5,7 @@ img.center {
     width: 65%;
     transform: rotate(0deg);
     border-radius: 20%;
+    position: static;
   }
   
   .about-me {
@@ -363,4 +364,7 @@ img.center {
     .send-button {
       width: 99%;
     }
+  }
+  .col-md-6{
+    position: center;
   }
